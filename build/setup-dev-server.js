@@ -1,0 +1,5 @@
+const path = require('path')
+const webpack = require('webpack')
+const MFS = require('momery-fs')
+const clientConfig = require('./webpack.client.config')
+const serverConfig = require('./webpack.server.config')
