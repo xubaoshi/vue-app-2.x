@@ -35,9 +35,9 @@ if (process.env.NODE_ENV === 'production') {
 
     config.plugins.push(
         new ExtractTextPlugin('styles.[hash].css'),
-        // new webpack.LoaderOptionsPlugin({
-        //     minimize: true
-        // }),
+        new webpack.LoaderOptionsPlugin({
+            minimize: true
+        }),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false
