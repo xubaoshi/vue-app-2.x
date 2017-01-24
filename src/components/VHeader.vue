@@ -1,12 +1,14 @@
 <template>
     <div class="header">
-
+        <v-nav></v-nav>
     </div>
 </template>
 
 <script>
+    import VNav from './VNav.vue'
     export default {
-        name: 'VFooter'
+        name: 'VHeader',
+        components: { VNav }
     }
 </script>
 
