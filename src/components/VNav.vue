@@ -1,13 +1,17 @@
 <template>
     <ul class="nav  cf">
-        <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">About</a></li>
+        <li>
+            <router-link :to="{ path:'home'}">Home</router-link>
+        </li>
+        <li>
+            <router-link :to="{ path:'about'}">Home</router-link>
+        </li>
     </ul>
 </template>
 
 <script>
     export default {
-        name:'v-nav'
+        name: 'v-nav'
     }
 </script>
 
