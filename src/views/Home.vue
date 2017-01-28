@@ -1,45 +1,35 @@
 <template>
-    <div class="home">
-        <h1>ABIZ FRONTEND</h1>
-        <div class="member-wrap">
-            <ul class="member-list cf">
-                <li class="js-member">
+    <div class="container post-area">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4"  >
+                <div class="post-preview">
                     <a href="javascript:;">
-                        <img src="/public/pic/members/zhangjie.jpg" alt="">
+                        <h2 class="post-title">webpack-1</h2>
                     </a>
-                </li>
-                <li class="js-member">
+                    <p class="post-meta">Posted by XuBaoshi on December 26, 2016</p>
+                </div>
+            </div>
+            <!--<hr>-->
+            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4"  >
+                <div class="post-preview">
                     <a href="javascript:;">
-                        <img src="/public/pic/members/xubaoshi.jpg" alt="">
+                        <h2 class="post-title">webpack-2</h2>
                     </a>
-                </li>
-                <li class="js-member">
-                    <a href="javascript:;">
-                        <img src="/public/pic/members/liuyao.jpg" alt="">
-                    </a>
-                </li>
-                <li class="js-member">
-                    <a href="javascript:;">
-                        <img src="/public/pic/members/guozhaodong.jpg" alt="">
-                    </a>
-                </li>
-                <li class="js-member member-empty">
-                    <a href="javascript:;">
-                        <img src="/public/pic/members/qiumingsheng.jpg" alt="">
-                    </a>
-                </li>
-                <li class="js-member member-empty">
-                    <a href="javascript:;">
-                        <img src="/public/pic/members/wangmei.jpg" alt="">
-                    </a>
-                </li>
-                <li class="js-member member-empty">
-                    <a href="javascript:;">
-                        <img src="/public/pic/members/zhangxiang.jpg" alt="">
-                    </a>
-                </li>
-                <li class="js-member member-empty"><span>...</span></li>
-            </ul>
+                    <p class="post-meta">Posted by XuBaoshi on December 26, 2016</p>
+                </div>
+            </div>
+            <!--<hr>-->
+            <!--<div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4" style="background: #aaa;height: 600px;" >
+
+            </div>
+            <hr>
+            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4" style="background: #ccc;height: 600px;" >
+
+            </div>
+            <hr>
+            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4" style="background: #aaa;height: 600px;" >
+
+            </div>-->
         </div>
     </div>
 </template>
@@ -55,39 +45,20 @@
 </script>
 
 <style lang="stylus">
-.home
-    font-family "Microsoft Yahei"
-    background-color #202a39
-    h1
-        padding 80px 0 90px
-        font-size 60px
-        font-weight 500
-        font-family Impact,sans-serif
-        color #fff
-        text-align center
-    .member-wrap
-        padding-bottom:50px 
-        .member-list        
-            text-align center
-            li 
-                display inline-block
-                overflow:hidden
-                margin 5px 5px 
-                width 50px 
-                height 50px
-                line-height 50px
-                border-radius 50%
-                text-align center
-                a
-                    display block
-                    width 100%
-                    height 100%
-                span
-                    vertical-align : middle
-                    text-align :center
-                img
-                    width:50px
-                    height:50px
-            .member-empty
-                background-color #fff
+    .post-preview
+        a
+            color:#404040
+            text-decoration:none
+            background-color:transparent
+            &:hover
+                color:#337ab7
+        p
+            color: #808080
+            font-size: 18px
+            font-style: italic
+            margin-top: 0
+            margin:30px 0
+            line-height:1.5
+    .post-area 
+        margin-top:30px
 </style>

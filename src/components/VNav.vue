@@ -1,10 +1,16 @@
 <template>
-    <ul class="nav  cf">
+    <ul class="nav cf">
         <li>
-            <router-link :to="{ path:'home'}">Home</router-link>
+            <router-link active-class="on" :to="{ path:'home'}">首页</router-link>
         </li>
         <li>
-            <router-link :to="{ path:'about'}">Home</router-link>
+            <router-link active-class="on" :to="{ path:'standard'}">规范</router-link>
+        </li>
+        <li>
+            <router-link active-class="on" :to="{ path:'plugin'}">组件</router-link>
+        </li>
+        <li>
+            <router-link active-class="on" :to="{ path:'about'}">关于</router-link>
         </li>
     </ul>
 </template>
@@ -27,9 +33,16 @@
         height:60px
         line-height:60px
         a
-            text-transform:uppercase
+            padding:0
+            text-decoration:none
             font-size:12px
             font-weight:800
-            letter-space:1px
             color:#fff
+            &:hover
+                color:#ccc
+                background-color:transparent
+            &:focus
+                background-color:transparent
+        .on
+            color:#ccc
 </style>

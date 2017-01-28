@@ -14,6 +14,6 @@
 
 <style lang="stylus">
 .header 
-    background-color:#c2bbba
+    background-color:#757171
     height:60px
 </style>

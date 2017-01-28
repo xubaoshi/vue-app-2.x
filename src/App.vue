@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" >
         <v-header></v-header>
         <div class="inner">
             <transition name="fade" mode="out-in">

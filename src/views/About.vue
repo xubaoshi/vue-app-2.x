@@ -59,6 +59,7 @@
     font-family "Microsoft Yahei"
     background-color #202a39
     h1
+        margin 0
         padding 80px 0 90px
         font-size 60px
         font-weight 500
