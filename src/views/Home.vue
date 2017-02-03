@@ -1,7 +1,7 @@
 <template>
     <div class="container post-area">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4"  >
+            <div class="col-lg-10 col-lg-offset-1 col-md-12 col-xs-12"  >
                 <div class="post-preview">
                     <a href="javascript:;">
                         <h2 class="post-title">webpack-1</h2>
@@ -10,7 +10,7 @@
                 </div>
             </div>
             <!--<hr>-->
-            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4"  >
+            <div class="col-lg-10 col-lg-offset-1 col-md-12 col-xs-12"  >
                 <div class="post-preview">
                     <a href="javascript:;">
                         <h2 class="post-title">webpack-2</h2>
@@ -18,18 +18,6 @@
                     <p class="post-meta">Posted by XuBaoshi on December 26, 2016</p>
                 </div>
             </div>
-            <!--<hr>-->
-            <!--<div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4" style="background: #aaa;height: 600px;" >
-
-            </div>
-            <hr>
-            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4" style="background: #ccc;height: 600px;" >
-
-            </div>
-            <hr>
-            <div class="col-lg-10 col-lg-offset-1 col-md-6 col-xs-4" style="background: #aaa;height: 600px;" >
-
-            </div>-->
         </div>
     </div>
 </template>
